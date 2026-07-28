@@ -1,4 +1,4 @@
-package az.projects.task_manager;
+package az.projects.task_manager.service;
 
 import az.projects.task_manager.dto.request.TaskRequest;
 import az.projects.task_manager.dto.response.TaskResponse;
@@ -8,7 +8,6 @@ import az.projects.task_manager.model.TaskStatus;
 import az.projects.task_manager.model.User;
 import az.projects.task_manager.repository.TaskRepository;
 import az.projects.task_manager.repository.UserRepository;
-import az.projects.task_manager.service.TaskService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

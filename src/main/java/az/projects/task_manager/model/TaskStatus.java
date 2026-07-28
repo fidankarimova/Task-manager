@@ -1,4 +1,7 @@
 package az.projects.task_manager.model;
 
-public class TaskStatus {
+public enum TaskStatus {
+    TODO,
+    IN_PROGRESS,
+    DONE
 }
